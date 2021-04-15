@@ -1,1 +1,24 @@
 # rpi-miracast-project
+
+Creating miracast dongle based on Raspberry PI Zero W
+
+## Links
+
+ - Main raspberry website https://www.raspberrypi.org/
+ - Documentation https://www.raspberrypi.org/documentation/
+ - Pi Shop https://www.pishop.us/
+
+## Hardware
+
+- Raspberry Pi Zero W https://www.pishop.us/product/raspberry-pi-zero-w/?src=raspberrypi 
+- Case + Heat sink Zebra [https://www.amazon.com/Zebra-Heatsink-Raspberry-Wireless-C4Labs/](https://www.amazon.com/Zebra-Heatsink-Raspberry-Wireless-C4Labs/dp/B01HP636I4/ref=pd_sbs_2?pd_rd_w=kgvHP&pf_rd_p=98101395-b70f-4a52-af63-8fac2c513e02&pf_rd_r=84H15KT6HM04Y8EHBD2J&pd_rd_r=e3e1c6b8-ba12-46d1-890e-2263cbf54275&pd_rd_wg=MDcem&pd_rd_i=B01HP636I4&psc=1)
+
+## Installation
+
+  Download and Install PI manager
+  - https://www.raspberrypi.org/software/
+  - https://downloads.raspberrypi.org/imager/imager_latest_amd64.deb
+  
+  Install Pi OS Lite
+  
+  Configure initial Wifi and SSH
