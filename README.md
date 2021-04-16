@@ -13,7 +13,7 @@ Creating miracast dongle based on Raspberry PI Zero W
 - Raspberry Pi Zero W https://www.pishop.us/product/raspberry-pi-zero-w/?src=raspberrypi 
 - Case + Heat sink Zebra [https://www.amazon.com/Zebra-Heatsink-Raspberry-Wireless-C4Labs/](https://www.amazon.com/Zebra-Heatsink-Raspberry-Wireless-C4Labs/dp/B01HP636I4/ref=pd_sbs_2?pd_rd_w=kgvHP&pf_rd_p=98101395-b70f-4a52-af63-8fac2c513e02&pf_rd_r=84H15KT6HM04Y8EHBD2J&pd_rd_r=e3e1c6b8-ba12-46d1-890e-2263cbf54275&pd_rd_wg=MDcem&pd_rd_i=B01HP636I4&psc=1)
 
-## Installation
+## OS Installation
 
   Download and Install PI manager
   - https://www.raspberrypi.org/software/
@@ -21,4 +21,19 @@ Creating miracast dongle based on Raspberry PI Zero W
   
   Install Pi OS Lite
   
-  Configure initial Wifi and SSH
+## OS Configuration
+
+  Use [first_before_boot_conf.sh](first_before_boot_conf.sh) to setup wifi and ssh acess before the first boot. Adjust wifi name and password, probably contry code in it first:
+  ```bash
+# Configure WiFi
+
+wifi_name=""      # <===== Change here
+wifi_pass=""      # <===== Change here
+wifi_country="US" # <===== Change here
+
+cat > wpa_supplicant.conf << EOL
+  ```
+and run it from `/boot` partition of your newly prepared SD:
+  ```bash
+  :> ./rpi-miracast-project/first_before_boot_conf.sh
+  ```
