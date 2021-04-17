@@ -8,3 +8,7 @@
 echo "Change default use password:"
 passwd
 
+
+
+# Clean up apt cache
+sudo apt clean
