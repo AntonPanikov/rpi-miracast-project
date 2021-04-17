@@ -54,3 +54,10 @@ and run it from `/boot` partition of your newly prepared SD:
   ```bash
   :> ./second_first_boot_conf.sh
   ```
+  
+  It will do for you:
+  ```bash
+  passwd
+  sudo apt update
+  sudo apt full-upgrade
+  ```
