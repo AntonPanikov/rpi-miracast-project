@@ -25,6 +25,7 @@ Creating miracast dongle based on Raspberry PI Zero W
 
   Use [first_before_boot_conf.sh](first_before_boot_conf.sh) to setup wifi and ssh acess before the first boot. Adjust wifi name and password, probably contry code in it first:
   ```bash
+  ...
 # Configure WiFi
 
 wifi_name=""      # <===== Change here
@@ -32,8 +33,24 @@ wifi_pass=""      # <===== Change here
 wifi_country="US" # <===== Change here
 
 cat > wpa_supplicant.conf << EOL
+  ...
   ```
 and run it from `/boot` partition of your newly prepared SD:
   ```bash
   :> ./rpi-miracast-project/first_before_boot_conf.sh
+  ```
+  Boot and SSH into it.
+  _Optionally_ use raspi config to set locale and timezone:
+  ```bash
+  sudo raspi-config
+  ```
+  Download this git repo as zip and unzip it in your home dir:
+  ```bash
+  wget https://github.com/AntonPanikov/rpi-miracast-project/archive/refs/heads/develop.zip
+  unzip -q develop.zip
+  cd rpi-miracast-project-develop/
+  ```
+  Use [second_first_boot_conf.sh](second_first_boot_conf.sh) to change default password, update and isntall necessary software.
+  ```bash
+  :> ./second_first_boot_conf.sh
   ```
