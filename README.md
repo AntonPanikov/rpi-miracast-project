@@ -7,6 +7,7 @@ Creating miracast dongle based on Raspberry PI Zero W
  - Main raspberry website https://www.raspberrypi.org/
  - Documentation https://www.raspberrypi.org/documentation/
  - Pi Shop https://www.pishop.us/
+ - Miracelcast GitHub repo https://github.com/albfan/miraclecast
 
 ## Hardware
 
