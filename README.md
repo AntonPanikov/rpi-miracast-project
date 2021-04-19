@@ -8,6 +8,8 @@ Creating miracast dongle based on Raspberry PI Zero W
  - Documentation https://www.raspberrypi.org/documentation/
  - Pi Shop https://www.pishop.us/
  - Miracelcast GitHub repo https://github.com/albfan/miraclecast
+ - Dnsmasq man page https://thekelleys.org.uk/dnsmasq/docs/dnsmasq-man.html
+ - Hostapd config options https://w1.fi/cgit/hostap/plain/hostapd/hostapd.conf
 
 ## Hardware
 
