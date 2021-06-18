@@ -8,7 +8,7 @@ Type=simple
 Restart=on-failure
 RestartSec=5s
 User=pi
-ExecStartPre=sudo -c /usr/sbin/logrotate --force /etc/logrotate.d/picast.logrotate
+ExecStartPre=sudo /usr/sbin/logrotate --force /etc/logrotate.d/picast.logrotate
 ExecStart=/home/pi/.local/bin/picast -c /home/pi/settings.ini
 
 [Install]
