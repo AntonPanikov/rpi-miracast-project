@@ -1,0 +1,8 @@
+[Unit]
+Description=Picast Controller Timer
+
+[Timer]
+OnCalendar=*:*:0/15
+
+[Install]
+WantedBy=timers.target
