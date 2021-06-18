@@ -1,0 +1,15 @@
+/var/tmp/picast.log {
+    rotate 10
+    daily
+    copytruncate
+    size 1M
+    missingok
+}
+
+/var/tmp/player.log {
+    rotate 10
+    daily
+    copytruncate
+    size 1M
+    missingok
+}
