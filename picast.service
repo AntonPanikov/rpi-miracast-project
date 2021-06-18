@@ -7,9 +7,8 @@ Requires=network.target
 Type=simple
 Restart=on-failure
 RestartSec=5s
-User=pi
 ExecStartPre=/usr/sbin/logrotate --force /etc/logrotate.d/picast.logrotate
-ExecStart=/home/pi/.local/bin/picast -c /home/pi/settings.ini
+ExecStart=su pi -c "/home/pi/.local/bin/picast -c /home/pi/settings.ini"
 
 [Install]
 WantedBy=multi-user.target
