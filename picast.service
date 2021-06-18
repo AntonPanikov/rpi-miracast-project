@@ -5,10 +5,11 @@ Requires=network.target
 
 [Service]
 Type=simple
+Restart=on-failure
+RestartSec=5s
 User=pi
 ExecStartPre=/usr/sbin/logrotate --force /etc/logrotate.d/picast.logrotate
 ExecStart=/home/pi/.local/bin/picast -c /home/pi/settings.ini
-RestartSec=5s
 
 [Install]
 WantedBy=multi-user.target
