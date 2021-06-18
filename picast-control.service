@@ -1,0 +1,12 @@
+[Unit]
+Description=Picast Controller Service
+After=picast.service
+Requires=picast.service
+
+[Service]
+Type=simple
+ExecStart=/home/pi/picast-control.sh
+RuntimeMaxSec=15
+
+[Install]
+WantedBy=multi-user.target
