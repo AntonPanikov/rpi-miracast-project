@@ -1,7 +1,7 @@
 [Unit]
 Description=Picast - A Simple Wireless Display Receiver on Raspberry Pi - Service
 After=network.target
-Require=network.target
+Requires=network.target
 
 [Service]
 Type=simple
