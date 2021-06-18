@@ -5,6 +5,7 @@
     size 1M
     notifempty
     missingok
+    su pi pi
 }
 
 /var/tmp/player.log {
@@ -14,4 +15,5 @@
     size 1M
     notifempty
     missingok
+    su pi pi
 }
