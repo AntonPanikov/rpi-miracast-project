@@ -5,7 +5,7 @@ Requires=network.target
 
 [Service]
 Type=simple
-ExecStart=/home/pi/.local/bin/picast
+ExecStart=/home/pi/.local/bin/picast -c /home/pi/settings.ini
 RestartSec=5s
 
 [Install]
