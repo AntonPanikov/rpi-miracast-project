@@ -3,6 +3,7 @@
     daily
     copytruncate
     size 1M
+    notifempty
     missingok
 }
 
@@ -11,5 +12,6 @@
     daily
     copytruncate
     size 1M
+    notifempty
     missingok
 }
