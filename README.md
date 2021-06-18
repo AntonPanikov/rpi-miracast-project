@@ -7,6 +7,7 @@ Creating miracast dongle based on Raspberry PI Zero W
  - Main raspberry website https://www.raspberrypi.org/
  - Documentation https://www.raspberrypi.org/documentation/
  - Pi Shop https://www.pishop.us/
+ - Picast GitHub repo https://github.com/miurahr/picast
  - Miracelcast GitHub repo https://github.com/albfan/miraclecast
  - Dnsmasq man page https://thekelleys.org.uk/dnsmasq/docs/dnsmasq-man.html
  - Hostapd config options https://w1.fi/cgit/hostap/plain/hostapd/hostapd.conf
@@ -15,6 +16,8 @@ Creating miracast dongle based on Raspberry PI Zero W
 
 - Raspberry Pi Zero W https://www.pishop.us/product/raspberry-pi-zero-w/?src=raspberrypi 
 - Case + Heat sink Zebra [https://www.amazon.com/Zebra-Heatsink-Raspberry-Wireless-C4Labs/](https://www.amazon.com/Zebra-Heatsink-Raspberry-Wireless-C4Labs/dp/B01HP636I4/ref=pd_sbs_2?pd_rd_w=kgvHP&pf_rd_p=98101395-b70f-4a52-af63-8fac2c513e02&pf_rd_r=84H15KT6HM04Y8EHBD2J&pd_rd_r=e3e1c6b8-ba12-46d1-890e-2263cbf54275&pd_rd_wg=MDcem&pd_rd_i=B01HP636I4&psc=1)
+- Monitor with case [https://www.waveshare.com/product/5.5inch-hdmi-amoled-with-case.htm](https://www.waveshare.com/product/5.5inch-hdmi-amoled-with-case.htm)
+- - Monitor manual [https://www.waveshare.com/wiki/5.5inch_HDMI_AMOLED](https://www.waveshare.com/wiki/5.5inch_HDMI_AMOLED)
 
 ## OS Installation
 
