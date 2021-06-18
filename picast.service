@@ -6,6 +6,7 @@ Requires=network.target
 [Service]
 Type=simple
 User=pi
+ExecStartPre=/usr/sbin/logrotate --force /etc/logrotate.d/picast.logrotate
 ExecStart=/home/pi/.local/bin/picast -c /home/pi/settings.ini
 RestartSec=5s
 
